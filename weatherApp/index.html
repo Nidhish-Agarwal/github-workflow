@@ -1,0 +1,24 @@
+// Refactored by Nidhish Agarwal: Separated HTML, CSS, and JS. // Used semantic
+names, cleaned up formatting, and added comments for clarity.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Weather Forecast</h1>
+      <input
+        type="text"
+        class="text-input"
+        id="text-input"
+        placeholder="Enter city name"
+      />
+      <button class="btn" onclick="getWeather()">Get Weather</button>
+      <div class="result" id="res"></div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
