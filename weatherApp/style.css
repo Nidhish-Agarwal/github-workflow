@@ -1,0 +1,79 @@
+ /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+.text-input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button */
+.btn {
+  width: 25%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Result Section */
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Error Message */
+.error {
+  color: red;
+}
+
+/* Weather Info */
+.weather {
+  font-size: 24px;
+  color: #333;
+}
+
+.temp {
+  font-size: 48px;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.data {
+  color: #666;
+}
